@@ -1,16 +1,23 @@
 import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
-import Card from "./components/Card";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavTabs from "./components/NavTabs";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-    <div className="container">
-      <Navbar />
-      <Jumbotron />
-      <Card />
-    </div>
+    <Router>
+      <div>
+        <NavTabs />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/Portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
+      </div>
+    </Router>
   );
 }
 
