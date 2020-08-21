@@ -15,10 +15,13 @@ function PortfolioCard(props) {
 
       </div>
       <div className="img-container">
-        <img alt={props.TitleOfProject} src={props.screenshot} />
+        {/* <img alt={props.TitleOfProject} src={props.screenshot}  /> */}
+        <a href={props.screenshot}>
+          <img src={props.screenshot} alt={props.TitleOfProject} />
+
+        </a>
       </div>
     </div>
   );
 }
-
 export default PortfolioCard;
