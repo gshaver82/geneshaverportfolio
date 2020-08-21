@@ -7,7 +7,6 @@ import PortfolioJSON from "../PortfolioJSON.json";
 function PortfolioPage() {
     return (
         <div>
-            <p>portfolio page</p>
             <Wrapper>
                 <Title>Portfolio List</Title>
                 {PortfolioJSON.map(PortfolioItem => (
