@@ -3,7 +3,7 @@
     "id": 1,
     "TitleOfProject": "Satellite Flyover",
     "screenshot":
-      "./images/SatFlyoverProjectsite.jpg",
+      "./SatFlyoverProjectsite.jpg",
     "ProjectDescription": "This site will allow users to search for satellites in view above thier location"
   },
   {

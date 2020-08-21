@@ -1,6 +1,8 @@
 import React from "react";
 import "./style.css";
 
+// href="%PUBLIC_URL%/favicon.ico" 
+
 function PortfolioCard(props) {
   return (
     <div className="card">
@@ -15,11 +17,12 @@ function PortfolioCard(props) {
 
       </div>
       <div className="img-container">
-        {/* <img alt={props.TitleOfProject} src={props.screenshot}  /> */}
         <a href={props.screenshot}>
-          <img src={props.screenshot} alt={props.TitleOfProject} />
+          <img src={props.screenshot } alt={props.TitleOfProject} />
 
         </a>
+        {/* this does not work */}
+        {/* <img alt="screenshot" src={require(props.screenshot)} /> */}
       </div>
     </div>
   );
