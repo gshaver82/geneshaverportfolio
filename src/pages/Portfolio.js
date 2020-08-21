@@ -9,27 +9,17 @@ function PortfolioPage() {
         <div>
             <p>portfolio page</p>
             <Wrapper>
-                <Title>Friends List</Title>
-                <PortfolioCard
-                    name={PortfolioJSON[0].name}
-                    image={PortfolioJSON[0].image}
-                    occupation={PortfolioJSON[0].occupation}
-                    location={PortfolioJSON[0].location}
-                />
-                <PortfolioCard
-                    name={PortfolioJSON[1].name}
-                    image={PortfolioJSON[1].image}
-                    occupation={PortfolioJSON[1].occupation}
-                    location={PortfolioJSON[1].location}
-                />
-                <PortfolioCard
-                    name={PortfolioJSON[2].name}
-                    image={PortfolioJSON[2].image}
-                    occupation={PortfolioJSON[2].occupation}
-                    location={PortfolioJSON[2].location}
-                />
+                <Title>Portfolio List</Title>
+                {PortfolioJSON.map(PortfolioItem => (
+                    <PortfolioCard className="list-group-item"
+                        key={PortfolioItem.id}
+                        TitleOfProject={PortfolioItem.TitleOfProject}
+                        screenshot={PortfolioItem.screenshot}
+                        ProjectDescription={PortfolioItem.ProjectDescription}
+                    >
+                    </PortfolioCard>
+                ))}
             </Wrapper>
-
         </div>
     );
 }

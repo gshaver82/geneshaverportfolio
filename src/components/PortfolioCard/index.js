@@ -1,27 +1,24 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
+function PortfolioCard(props) {
   return (
     <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.image} />
-      </div>
       <div className="content">
-        <ul>
-          <li>
-            <strong>Name:</strong> {props.name}
-          </li>
-          <li>
-            <strong>Occupation:</strong> {props.occupation}
-          </li>
-          <li>
-            <strong>Location:</strong> {props.location}
-          </li>
-        </ul>
+
+        <div className="projecttitle">
+          <strong>{props.TitleOfProject}</strong>
+        </div>
+        <br />
+        <strong>ProjectDescription:</strong>
+        {props.ProjectDescription}
+
+      </div>
+      <div className="img-container">
+        <img alt={props.TitleOfProject} src={props.screenshot} />
       </div>
     </div>
   );
 }
 
-export default FriendCard;
+export default PortfolioCard;

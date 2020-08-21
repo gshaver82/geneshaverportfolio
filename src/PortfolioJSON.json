@@ -1,26 +1,23 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
-    "image":
+    "TitleOfProject": "SpongeBob",
+    "screenshot":
       "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+    "ProjectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image":
+    "TitleOfProject": "Mr. Krabs",
+    "screenshot":
       "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "ProjectDescription": "Restaurant Owner"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image":
+    "TitleOfProject": "Squidward",
+    "screenshot":
       "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "ProjectDescription": "Cashier"
   }
 ]

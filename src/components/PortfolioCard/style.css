@@ -1,22 +1,23 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 325px;
+  height: auto;
   margin: 1rem;
   position: relative;
-  width: 325px;
+  width: 425px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
 
 .card > .img-container {
-  height: 60%;
+  height: auto;
   overflow: hidden;
   text-align: center;
-  background:#6CADDC;
+  background:red;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 425px;
+  height: auto;
 }
 
 .card > .content {
@@ -31,4 +32,11 @@
 
 .card > .content > ul > li {
   margin-top: 18px;
+}
+
+.card > .content > .projecttitle {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1rem;
 }
