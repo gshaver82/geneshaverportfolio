@@ -4,7 +4,8 @@
   height: auto;
   margin: 1rem;
   position: relative;
-  width: 500px;
+  min-width: 300px;
+  max-width: 500px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
@@ -16,7 +17,7 @@
   background:red;
 }
 .card > .img-container > a > img {
-  width: 500px;
+  width: 100%;
   height: auto;
   position: relative;
 }

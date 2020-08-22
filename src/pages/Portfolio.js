@@ -15,6 +15,8 @@ function PortfolioPage() {
                         TitleOfProject={PortfolioItem.TitleOfProject}
                         screenshot={PortfolioItem.screenshot}
                         ProjectDescription={PortfolioItem.ProjectDescription}
+                        githubLink={PortfolioItem.githubLink}
+                        deployedLink={PortfolioItem.deployedLink}
                     >
                     </PortfolioCard>
                 ))}
