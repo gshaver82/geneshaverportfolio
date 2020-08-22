@@ -3,51 +3,48 @@
     "id": 1,
     "TitleOfProject": "Satellite Flyover",
     "githubLink": "https://github.com/gshaver82/SatFlyover",
-    "deployedLink": "https://gshaver82.github.io/SatFlyover/",   
-    "screenshot":
-      "./SatFlyoverProjectSite.jpg",
+    "deployedLink": "https://gshaver82.github.io/SatFlyover/",
+    "screenshot": "./SatFlyoverProjectSite.jpg",
     "ProjectDescription": "This site will allow users to search for satellites in view above thier location"
   },
   {
     "id": 2,
     "TitleOfProject": "Password Generator",
     "githubLink": "https://github.com/gshaver82/homework3",
-    "deployedLink": "https://gshaver82.github.io/homework3/",   
-    "screenshot":
-    "./PasswordGenSitePic.jpg",      
+    "deployedLink": "https://gshaver82.github.io/homework3/",
+    "screenshot": "./PasswordGenSitePic.jpg",
     "ProjectDescription": "Password Generator"
   },
   {
     "id": 3,
     "TitleOfProject": "WorkdaySchedulerSite",
     "githubLink": "https://github.com/gshaver82/homework5",
-    "deployedLink": "https://gshaver82.github.io/homework5/",    
-    "screenshot":
-    "./WorkdaySchedulerSite.jpg",  
+    "deployedLink": "https://gshaver82.github.io/homework5/",
+    "screenshot": "./WorkdaySchedulerSite.jpg",
     "ProjectDescription": "Workday scheduler"
   },
   {
     "id": 4,
-    "TitleOfProject": "SpongeBob",
-    "githubLink": "",
-    "screenshot":
-      "",
-    "ProjectDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    "TitleOfProject": "Note taker",
+    "githubLink": "https://github.com/gshaver82/HW11NoteTaker",
+    "deployedLink": "https://quiet-stream-15926.herokuapp.com/",
+    "screenshot": "./NotesScreenshot.jpg",
+    "ProjectDescription": "Note taker"
   },
   {
     "id": 5,
-    "TitleOfProject": "Mr. Krabs",
-    "githubLink": "",
-    "screenshot":
-      "",
-    "ProjectDescription": "Restaurant Owner"
+    "TitleOfProject": "MixtapePlaylist",
+    "githubLink": "https://github.com/gshaver82/MixtapePlaylist",
+    "deployedLink": "https://gene-mixtapeplaylist.herokuapp.com/",
+    "screenshot": "./MixtapePlaylist.png",
+    "ProjectDescription": "MixtapePlaylist"
   },
   {
     "id": 6,
-    "TitleOfProject": "Squidward",
-    "githubLink": "",
-    "screenshot":
-      "",
-    "ProjectDescription": "Cashier"
+    "TitleOfProject": "ReactEmployeeDirectory",
+    "githubLink": "https://github.com/gshaver82/React-Employee-Directory",
+    "deployedLink": "https://gene-react-employee-directory.herokuapp.com/",
+    "screenshot": "./ReactEmployeeDirectory.JPG",
+    "ProjectDescription": "ReactEmployeeDirectory"
   }
 ]
