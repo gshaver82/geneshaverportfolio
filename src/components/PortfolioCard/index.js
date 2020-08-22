@@ -3,7 +3,7 @@ import "./style.css";
 
 function PortfolioCard(props) {
   return (
-    <div className="card">
+    <div className="card2">
       <div className="content">
         <div className="projecttitle">
           <strong>{props.TitleOfProject}</strong>

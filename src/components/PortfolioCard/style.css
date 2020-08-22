@@ -1,34 +1,37 @@
-.card {
+.card2 {
   background: #fff;
   border-radius: 2px;
-  height: auto;
+  height: fit-content;
   margin: 1rem;
-  position: relative;
+  /* position: relative; */
+  /* min-width: 300px;
+  max-width: 500px; */
+  width: 30vw;
   min-width: 300px;
   max-width: 500px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
 
-.card > .img-container {
+.card2 > .img-container {
   height: auto;
   overflow: hidden;
   text-align: center;
   background:red;
 }
-.card > .img-container > a > img {
+.card2 > .img-container > a > img {
   width: 100%;
   height: auto;
-  position: relative;
+  /* position: relative; */
 }
 
-.card > .content {
+.card2 > .content {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
 }
 
-.card > .content > .projecttitle {
+.card2 > .content > .projecttitle {
   text-align: center;
   font-size: 2rem;
   color: black;

@@ -6,22 +6,20 @@ import PortfolioJSON from "../PortfolioJSON.json";
 
 function PortfolioPage() {
     return (
-        <div>
-            <Wrapper>
-                <Title>Portfolio List</Title>
-                {PortfolioJSON.map(PortfolioItem => (
-                    <PortfolioCard className="list-group-item"
-                        key={PortfolioItem.id}
-                        TitleOfProject={PortfolioItem.TitleOfProject}
-                        screenshot={PortfolioItem.screenshot}
-                        ProjectDescription={PortfolioItem.ProjectDescription}
-                        githubLink={PortfolioItem.githubLink}
-                        deployedLink={PortfolioItem.deployedLink}
-                    >
-                    </PortfolioCard>
-                ))}
-            </Wrapper>
-        </div>
+        <Wrapper>
+            <Title>Portfolio List</Title>
+            {PortfolioJSON.map(PortfolioItem => (
+                <PortfolioCard className="list-group-item"
+                    key={PortfolioItem.id}
+                    TitleOfProject={PortfolioItem.TitleOfProject}
+                    screenshot={PortfolioItem.screenshot}
+                    ProjectDescription={PortfolioItem.ProjectDescription}
+                    githubLink={PortfolioItem.githubLink}
+                    deployedLink={PortfolioItem.deployedLink}
+                >
+                </PortfolioCard>
+            ))}
+        </Wrapper>
     );
 }
 
