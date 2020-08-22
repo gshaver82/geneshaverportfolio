@@ -8,17 +8,17 @@
   },
   {
     "id": 2,
-    "TitleOfProject": "Mr. Krabs",
+    "TitleOfProject": "Password Generator",
     "screenshot":
-      "",
-    "ProjectDescription": "Restaurant Owner"
+    "./PasswordGenSitePic.jpg",      
+    "ProjectDescription": "Password Generator"
   },
   {
     "id": 3,
-    "TitleOfProject": "Squidward",
+    "TitleOfProject": "WorkdaySchedulerSite",
     "screenshot":
-      "",
-    "ProjectDescription": "Cashier"
+    "./WorkdaySchedulerSite.jpg",  
+    "ProjectDescription": "Workday scheduler"
   },
   {
     "id": 4,
