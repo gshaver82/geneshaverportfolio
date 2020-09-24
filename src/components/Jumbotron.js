@@ -1,16 +1,19 @@
 import React from "react";
+import Pdf from "../Util/GeneShaverResume.pdf";
 
 function Jumbotron() {
   return (
     <div className="jumbotron">
-      <h1>Your Project</h1>
+      <h1>Gene Shaver</h1>
       <p>
-        Enim adipisicing enim reprehenderit ex ullamco consectetur Lorem laboris magna exercitation.
-        Aliquip reprehenderit magna elit cillum adipisicing dolore aliquip velit. Ipsum ullamco
-        nostrud tempor eu deserunt ipsum incididunt fugiat esse ipsum. Exercitation nostrud
-        exercitation sit ex nostrud aliqua officia magna nostrud deserunt et esse eu deserunt. Non
-        dolor consequat qui ea culpa tempor magna nulla consectetur est occaecat.
+        Here are some links
       </p>
+      <a href = {Pdf} target = "_blank" rel="noopener noreferrer">Resume Pdf</a>
+      <br/>
+      <a href="https://github.com/gshaver82" target = "_blank" rel="noopener noreferrer">Github</a>
+      <br/>
+      <a href="https://www.linkedin.com/in/gene-shaver-7b574b1a4/" target = "_blank" rel="noopener noreferrer">Linkedin</a>
+
     </div>
   );
 }
