@@ -16,7 +16,7 @@ function Home() {
                 Skilled in React JavaScript HTML CSS JQuery and others. 
             </Styledh4>
             <div>
-                <img src={require('../ProfilePic25percent.jpg')} alt="HTML tutorial" class="responsive" ></img>
+                <img src={require('../ProfilePic25percent.jpg')} alt="Profile Pic" class="responsive" ></img>
             </div>
         </Wrapper>
     );
