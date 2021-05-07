@@ -9,22 +9,22 @@ function PortfolioCard(props) {
           <strong>{props.TitleOfProject}</strong>
         </div>
         <br />
-        <strong>ProjectDescription:</strong>
-        {props.ProjectDescription}
-        <br/>
         <strong>Github link (opens in new tab):</strong>
         <a href={props.githubLink} target="_blank" rel="noopener noreferrer">
           Link
         </a>
-        <br/>
+        <br />
         <strong>Deployed application link (opens in new tab):</strong>
         <a href={props.deployedLink} target="_blank" rel="noopener noreferrer">
           Link
         </a>
-        <br/>
+        <br />
+        <strong>ProjectDescription:</strong>
+        {props.ProjectDescription}
+        <br />
       </div>
       <div className="img-container">
-              <a href={props.screenshot}>
+        <a href={props.screenshot}>
           <img src={props.screenshot} alt={props.TitleOfProject} />
 
         </a>
