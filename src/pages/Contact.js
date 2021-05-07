@@ -16,19 +16,32 @@ function NavTabs() {
                 <Styledh3>Email Link:</Styledh3>
                 <Styledh4><a href="mailto:geneshaver@gmail.com‬">geneshaver@gmail.com</a></Styledh4>
                 <Styledh3>LinkedIn link (opens in new tab): </Styledh3>
-                <Styledh4>   <a href=
-                    "https://www.linkedin.com/in/gene-shaver-7b574b1a4/"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    LinkedIn
-        </a></Styledh4>
+                <Styledh4>
+                    <a href=
+                        "https://www.linkedin.com/in/gene-shaver-7b574b1a4/"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn
+                </a>
+                </Styledh4>
                 <Styledh3>Github link (opens in new tab): </Styledh3>
-                <Styledh4><a href=
-                    "https://github.com/gshaver82"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Github
-        </a></Styledh4>
+                <Styledh4>
+                    <a href=
+                        "https://github.com/gshaver82"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Github
+                </a>
+                </Styledh4>
+                <Styledh3>Resume link (opens in new tab): </Styledh3>
+                <Styledh4>
+                    <a href=
+                        "https://github.com/gshaver82"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Resume
+                </a>
+                </Styledh4>
             </div>
         </Wrapper>
     );
