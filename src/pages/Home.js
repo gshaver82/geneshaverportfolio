@@ -3,10 +3,8 @@ import React from "react";
 function Home() {
     return (
         <div>
-            <p>home page</p>
+            <img src={require('../portraitSmall.jpg')} alt="HTML tutorial" class="responsive" ></img>
         </div>
-
-
     );
 }
 
