@@ -6,7 +6,7 @@ function Home() {
     return (
         <Wrapper>
             <Styledh4>
-                With a passion for crafting, building, and seeing my creations at work I have ... lost many hours to games like factorio.
+                With a passion for crafting, building, and seeing my creations at work...
                 I look forward to putting that passion to work on web design and maybe even to AI design.
                 Please visit my portfolio to see my creations thus far. 
             </Styledh4>
@@ -16,7 +16,7 @@ function Home() {
                 Skilled in React JavaScript HTML CSS JQuery and others. 
             </Styledh4>
             <div>
-                <img src={require('../ProfilePic25percent.jpg')} alt="Profile Pic" class="responsive" ></img>
+                <img src={require('../50percentProfilePic.jpg')} alt="Profile Pic" class="responsive" ></img>
             </div>
         </Wrapper>
     );
