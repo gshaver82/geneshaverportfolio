@@ -38,5 +38,21 @@
     "deployedLink": "https://gshaver82.github.io/OfMonstersAndMen/",
     "screenshot": "./SatFlyoverProjectSite.jpg",
     "ProjectDescription": "This site will allow users to search for satellites in view above thier location. this app is no longer fully working due to the n2y0 api now requiring CORS. From the screenshot you can see that i had the weather API and the satelite API working together to show you what sats were overhead, what direction to look and what the weather conditions were at the time. the Link not found at the bottom was for a paid API that linked the NORAD ID to the wiki for the satelite."
+  },
+  {
+    "id": 6,
+    "TitleOfProject": "MN Cryonics HR monitor",
+    "githubLink": "https://github.com/gshaver82/cryonics-member-response-info",
+    "deployedLink": "https://cryonics-member-response-info.herokuapp.com/",
+    "screenshot": "./bar.png",
+    "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. when a user loses HR this server will notify emergency contacts. fitbit syncing will passively monitor, and the clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location"
+  },
+  {
+    "id": 7,
+    "TitleOfProject": "MN Cryonics HR monitor fitbit clockface app",
+    "githubLink": "https://github.com/gshaver82/Fitbit-Clockface-HeartRateAlert",
+    "deployedLink": "",
+    "screenshot": "CryonicsMonitor-screenshot(4).png",
+    "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. when a user loses HR this server will notify emergency contacts. fitbit syncing will passively monitor, and the clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location"
   }
 ]
