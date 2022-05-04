@@ -4,6 +4,8 @@ import PortfolioCard from "../components/PortfolioCard";
 import Title from "../components/Title";
 import PortfolioJSON from "../PortfolioJSON.json";
 
+//data pulled from PortfolioJSON.json 
+
 function PortfolioPage() {
     return (
         <Wrapper>
