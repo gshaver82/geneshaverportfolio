@@ -9,7 +9,7 @@ import PortfolioJSON from "../PortfolioJSON.json";
 function PortfolioPage() {
     return (
         <Wrapper>
-            <Title>Portfolio List here</Title>
+            <Title>Portfolio List</Title>
             {PortfolioJSON.map(PortfolioItem => (
                 <PortfolioCard className="list-group-item"
                     key={PortfolioItem.id}
