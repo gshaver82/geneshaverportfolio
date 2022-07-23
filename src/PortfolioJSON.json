@@ -12,7 +12,7 @@
     "TitleOfProject": "MN Cryonics HR monitor fitbit clockface app",
     "githubLink": "https://github.com/gshaver82/Fitbit-Clockface-HeartRateAlert",
     "deployedLink": "",
-    "screenshot": "CryonicsMonitor-screenshot(4).png",
+    "screenshot": "CryonicsMonitor-screenshot(6).png",
     "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. when a user loses HR this server will notify emergency contacts. fitbit syncing will passively monitor, and the clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location"
   },
   {
