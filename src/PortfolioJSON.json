@@ -18,21 +18,14 @@
   {
     "id": 3,
     "TitleOfProject": "autoheartwatch",
-    "githubLink": "",
+    "githubLink": "https://github.com/gshaver82/autoheartwatchRN",
     "deployedLink": "",
-    "screenshot": "./autoheartwatch.jpg",
-    "ProjectDescription": "This flutter mobile app will function like the fitbit sense monitoring but work for many different devices. This will include fitness watches, EKG devices and/or pulse oximeters. Currently in development."
+    "screenshot": "./AHWScreenshot.png",
+    "ProjectDescription": "This react native mobile app currently sets alarms for users to check in. If there is no response the server will send texts and calls to the users emergency contacts. Automatic check ins with a smart watch or EKG device are planned for the future. Bluetooth connectivity with mobile app has been tested and working and steps beyond that are in progress."
   },
-    {
-    "id": 4,
-    "TitleOfProject": "autoheartwatch",
-    "githubLink": "https://github.com/gshaver82/autoheartwatchserver",
-    "deployedLink": "",
-    "screenshot": "./autoheartwatch.jpg",
-    "ProjectDescription": "This flutter mobile app will function like the fitbit sense monitoring but work for many different devices. This will include fitness watches, EKG devices and/or pulse oximeters. Currently in development."
-  },
+ 
   {
-    "id": 5,
+    "id": 4,
     "TitleOfProject": "phasmaphobia-ghost-filter",
     "githubLink": "https://github.com/gshaver82/phasmaphobia-ghost-filter",
     "deployedLink": "https://phasmaphobia-ghost-filter.herokuapp.com",
