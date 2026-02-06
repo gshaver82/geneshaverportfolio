@@ -1,6 +1,14 @@
 [
-  {
+    {
     "id": 1,
+    "TitleOfProject": "MN Cryonics HR monitor",
+    "githubLink": "https://github.com/gshaver82/mcrr",
+    "deployedLink": "https://mcrr-3fcfa13abd26.herokuapp.com/",
+    "screenshot": "./CryonicsGroupWebsite.png",
+    "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. when a user loses HR this server will notify emergency contacts. fitbit syncing will passively monitor, and the clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location"
+  },
+  {
+    "id": 2,
     "TitleOfProject": "MN Cryonics HR monitor",
     "githubLink": "https://github.com/gshaver82/cryonics-member-response-info",
     "deployedLink": "https://cryonics-member-response-info.herokuapp.com/",
@@ -8,7 +16,7 @@
     "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. when a user loses HR this server will notify emergency contacts. fitbit syncing will passively monitor, and the clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location"
   },
   {
-    "id": 2,
+    "id": 3,
     "TitleOfProject": "MN Cryonics HR monitor fitbit clockface app",
     "githubLink": "https://github.com/gshaver82/Fitbit-Clockface-HeartRateAlert",
     "deployedLink": "https://gallery.fitbit.com/details/6b988099-f55c-4862-9d5d-99fc804760d2",
@@ -16,16 +24,16 @@
     "ProjectDescription": "this is the companion app that is installed on the fitbit sense. written in Fitbit studio this app will monitor heart rate and send an alert to the webpage that will then send texts/phone calls to emergency contacts"
   },
   {
-    "id": 3,
+    "id": 4,
     "TitleOfProject": "autoheartwatch",
     "githubLink": "https://github.com/gshaver82/autoheartwatchRN",
     "deployedLink": "",
     "screenshot": "./AHWScreenshot.png",
-    "ProjectDescription": "This react native mobile app currently sets alarms for users to check in. If there is no response the server will send texts and calls to the users emergency contacts. Automatic check ins with a smart watch or EKG device are planned for the future. Bluetooth connectivity with mobile app has been tested and working and steps beyond that are in progress."
+    "ProjectDescription": "This react native mobile app currently sets alarms for users to check in. If there is no response the server will send texts and calls to the users emergency contacts. Automatic check ins with a smart watch or EKG device are planned for the future. Bluetooth connectivity with mobile app has been tested and working and steps beyond that are in progress. Testing done with users via Expo builds and Apple TestFlight."
   },
  
   {
-    "id": 4,
+    "id": 5,
     "TitleOfProject": "phasmaphobia-ghost-filter",
     "githubLink": "https://github.com/gshaver82/phasmaphobia-ghost-filter",
     "deployedLink": "https://phasmaphobia-ghost-filter.herokuapp.com",
