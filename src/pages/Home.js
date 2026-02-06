@@ -7,8 +7,10 @@ function Home() {
         <Wrapper>
             <Styledh4>
                 With a passion for crafting, building, and seeing my creations at work...
-                I look forward to putting that passion to work on web design and maybe even to AI design.
+                I look forward to putting that passion to work.
                 Please visit my portfolio to see my creations thus far. 
+                Most of my work has been for a local cryonics group, some free work, some paid. 
+                This has given me valuable experience creating real working applications for users that solve their particular needs.
             </Styledh4>
 
             <Styledh4>
