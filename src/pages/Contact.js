@@ -36,7 +36,7 @@ function NavTabs() {
                 <Styledh3>Resume link (opens in new tab): </Styledh3>
                 <Styledh4>
                     <a href=
-                        '../GeneShaverResume.pdf'
+                        '../GeneShaverResume2.pdf'
                         target="_blank"
                         rel="noopener noreferrer">
                         Resume
