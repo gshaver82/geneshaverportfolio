@@ -9,9 +9,9 @@ function PortfolioCard(props) {
           <strong>{props.TitleOfProject}</strong>
         </div>
         <br />
-        <strong>Github link:</strong>(opens in new tab)
         {props.githubLink.length > 0 && (
           <>
+            <strong>Github link:</strong>
             <a
               href={props.githubLink}
               target="_blank"
@@ -19,17 +19,27 @@ function PortfolioCard(props) {
             >
               Link
             </a>
-            <span style={{ fontSize: '0.8em', marginLeft: '0.25rem' }}>
+            <span style={{ fontSize: '0.6em', marginLeft: '0.25rem' }}>
               (opens in new tab)
             </span>
-            <br />
           </>
         )}
-
-        <strong>Deployed application link:</strong>
-        <a href={props.deployedLink} target="_blank" rel="noopener noreferrer">
-          Link
-        </a>(opens in new tab)
+        <br />
+        {props.deployedLink.length > 0 && (
+          <>
+            <strong>Deployed application link:</strong>
+            <a
+              href={props.deployedLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link
+            </a>
+            <span style={{ fontSize: '0.6em', marginLeft: '0.25rem' }}>
+              (opens in new tab)
+            </span>
+          </>
+        )}
         <br />
         <strong>ProjectDescription:</strong>
         {props.ProjectDescription}
