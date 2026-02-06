@@ -1,11 +1,11 @@
 [
     {
     "id": 1,
-    "TitleOfProject": "MN Cryonics HR monitor",
+    "TitleOfProject": "Cryonics local group hub",
     "githubLink": "https://github.com/gshaver82/mcrr",
     "deployedLink": "https://mcrr-3fcfa13abd26.herokuapp.com/",
     "screenshot": "./CryonicsGroupWebsite.png",
-    "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. when a user loses HR this server will notify emergency contacts. fitbit syncing will passively monitor, and the clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location"
+    "ProjectDescription": "This site will enable users to create or join local cryonics groups. member lists and emergency calldown lists are curated by each individual group for rapid retrieval in case of emergency. Each member can fill out as much as or as little information as they want."
   },
   {
     "id": 2,
