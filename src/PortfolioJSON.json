@@ -13,7 +13,7 @@
     "githubLink": "https://github.com/gshaver82/cryonics-member-response-info",
     "deployedLink": "https://cryonics-member-response-info.herokuapp.com/",
     "screenshot": "./bar.png",
-    "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. When the watch unexpectedly loses a heartrate signal, this server will notify emergency contacts. The clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location."
+    "ProjectDescription": "This site will authenticate users, and allow them to link to a fitbit account. When the watch unexpectedly loses a heart rate signal, this server will notify emergency contacts. The clock face app that was developed separately will ping to this server if HR is lost. A member dashboard shows users status and alert status including GPS location."
   },
   {
     "id": 3,
@@ -38,6 +38,6 @@
     "githubLink": "https://github.com/gshaver82/phasmaphobia-ghost-filter",
     "deployedLink": "https://phasmaphobia-ghost-filter.herokuapp.com",
     "screenshot": "./phasmaphobiaFilterApp.png",
-    "ProjectDescription": "This React web app will allow players of the game phasmaphobia to quickly filter out what ghost type they are dealing with. click once to confirm an evidence, and click again to exclude it. the program will automatically let you know which pieces of evidence are still relevant. for example, if freezing and EMF5 are confirmed checking spirit box and ghost writing is not needed. the only 2 ghosts left at this point both do not have spirit box and ghost writing.so, fingerprints and orbs will be noted with 'check this!' click the details button to expand on the info for each ghost if desired. playtested several times with great success!"
+        "ProjectDescription": "This React mobile friendly web app will allow players of the game phasmaphobia to quickly filter out what clues are needed to identify the ghost they are facing. Simple one click interface to cycle between confirmed, excluded or unknown. My code will then show what clues need to be investigated or which ones can be ignored."
   }
 ]
