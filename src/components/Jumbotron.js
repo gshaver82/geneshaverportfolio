@@ -12,7 +12,7 @@ function Jumbotron() {
       <br/>
       <a href="https://github.com/gshaver82" target = "_blank" rel="noopener noreferrer">Github</a>
       <br/>
-      <a href="https://www.linkedin.com/in/gene-shaver-7b574b1a4/" target = "_blank" rel="noopener noreferrer">Linkedin</a>
+      <a href="https://www.linkedin.com/in/geneshaver" target = "_blank" rel="noopener noreferrer">Linkedin</a>
 
     </div>
   );

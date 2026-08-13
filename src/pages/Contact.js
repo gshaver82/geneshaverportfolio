@@ -18,7 +18,7 @@ function NavTabs() {
                 <Styledh3>LinkedIn link (opens in new tab): </Styledh3>
                 <Styledh4>
                     <a href=
-                        "https://www.linkedin.com/in/gene-shaver-7b574b1a4/"
+                        "https://www.linkedin.com/in/geneshaver"
                         target="_blank"
                         rel="noopener noreferrer">
                         LinkedIn
